@@ -1,0 +1,25 @@
+body{padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.flex{display: flex;
+gap:10px;
+}
+.flex-items{background-color: orange;
+    font-size:4rem;
+    width:50%;
+    height:200px
+}
+.test{display:flex;
+justify-content: start;
+align-items:center; }
+
+/* 
+Flex-wrap(wraps everything so that you don't have overflow)
+it is not advisable to put a flex wrap on a body it is best suitable for a div
+
+for mobile(@media screen {This are your devices 
+    
+})
+hr{hr-style: dashed;} */
